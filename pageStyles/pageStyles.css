@@ -42,14 +42,29 @@ body {
     font-weight: bold;
 }
 
-.btn-body {
-   display: block;
-   margin: 1rem auto;
-    width:250px;
-    height:100px;
-    text-align:center;
-    font-size:1.5rem;
-    background-color: #BE185D;
+.quiz-main {
+    text-align: center;
+    color: #9CA3AF
+}
+
+.quiz-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    text-align: left;
+}
+
+td {
+    padding: 0 20px;
+}
+
+.quiz-options {
+    text-align: left;
+    display: block;
+}
+
+.output {
+    font-size: 2rem;
 }
 
 .footer {
@@ -71,4 +86,3 @@ body {
     display: inline;
     padding: 0.5rem;
 }
-

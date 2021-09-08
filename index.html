@@ -7,32 +7,45 @@
     <title>Home | Fun with triangles</title>
     <link href="/styles.css" rel="stylesheet"/>
 </head>
-<body>
-    <h1>Fun with Triangles</h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/">Quiz</a>
-        <a href="/">Is Triangle?</a>
-        <a href="/">Hypotenuse</a>
-        <a href="/">Area of Triangle</a>
-    </nav>
-    <button href="/pages/">Quiz</button>
-    <button>Is Triangle?</button>
-    <button>Hypotenuse</button>
-    <button>Area of Triangle</button>
-    <footer>
-        <p>2021 | Nisha Sen</p>
+<body>    
+    <nav class="navigation">
+        <h1 class="nav-head">Fun with Triangles</h1>
         <ul>
-            <li class="links">
+            <li class="nav-list active-link">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/quiz.html">Quiz</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/isTriangle.html">Is Triangle?</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/area.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <button onclick="window.location.href='/pages/quiz.html'" class="btn-body link">Quiz</button>           
+    <button onclick="window.location.href='/pages/isTriangle.html'" class="btn-body link">Is Triangle?</button>            
+    <button onclick="window.location.href='/pages/hypotenuse.html'" class="btn-body link">Hypotenuse</button>           
+    <button onclick="window.location.href='/pages/area.html'" class="btn-body link">Area of Triangle</button>
+    <footer class="footer">
+        <p class="footer-head">2021 | Nisha Sen</p>
+        <ul>
+            <li class="social-links">
                 <a href="https://github.com/nishasen"><img src="/images/github.svg"></a>
             </li>
-            <li class="links">
+            <li class="social-links">
                 <a href="https://www.instagram.com/sen._.nisha/"><img src="/images/instagram.svg"></a>  
             </li>
-            <li class="links">
+            <li class="social-links">
                 <a href="https://www.linkedin.com/in/nisha-sen-13644b191/"><img src="/images/linkedin.svg"></a>                
             </li>
-            <li class="links">
+            <li class="social-links">
                 <a href="https://twitter.com/NishaSe58693459"><img src="/images/twitter.svg"></a>                
             </li>
         </ul>
