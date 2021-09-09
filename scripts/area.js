@@ -1,0 +1,5 @@
+const firstSide = document.querySelector("#first-side")
+const secondSide = document.querySelector("#second-side")
+const thirdSide = document.querySelector("#third-side")
+const areaButton = document.querySelector("#btn-area")
+const areaOutput = document.querySelector("#output-area") 
