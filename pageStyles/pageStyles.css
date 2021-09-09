@@ -51,14 +51,14 @@ body {
     color: #EC4899;
 }
 
-.isTriangle-label, .hypotenuse-label, .area-label, .sides, .angles, 
+.isTriangle-label, .hypotenuse-label, .area-label, .sides, .angles-input, 
 .btn-isTriangle, .btn-quiz, .btn-hypotenuse, .btn-area {
     display: block;
     margin: 1rem auto;
     font-size: 1.5rem;
 }    
 
-.angles, .sides {
+.angles-input, .sides {
     border-radius: 2rem;
     padding: 0.5rem;
     text-align: center;
