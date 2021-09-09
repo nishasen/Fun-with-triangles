@@ -42,25 +42,32 @@ body {
     font-weight: bold;
 }
 
-.quiz-main, .isTriangle-main {
+.quiz-main, .isTriangle-main, .hypotenuse-main, .area-main {
     text-align: center;
     color: #9CA3AF;
 }
 
-.isTriangle-label, .angles, .btn-isTriangle, .btn-quiz {
-    display: block;
-    margin: 1rem auto;
-    font-size: 1.1rem;
-}    
-
-.angles {
-    border-radius: 2rem;
-    padding: 0.5rem;
+.radio-link:hover {
+    color: #EC4899;
 }
 
-.btn-quiz, .btn-isTriangle {
+.isTriangle-label, .hypotenuse-label, .area-label, .sides, .angles, 
+.btn-isTriangle, .btn-quiz, .btn-hypotenuse, .btn-area {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}    
+
+.angles, .sides {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.btn-quiz, .btn-isTriangle, .btn-hypotenuse, .btn-area {
     padding: 0.7rem;
     background-color: #BE185D;
+    cursor: pointer;
 }
 .quiz-table {
     margin-left: auto;
@@ -82,7 +89,7 @@ input[type=radio] {
     width: 5%;
 }
 
-.outputQuiz, .outputIsTriangle {
+.outputQuiz, .outputIsTriangle, .outputHypotenuse, .outputArea {
     font-size: 2rem;
 }
 

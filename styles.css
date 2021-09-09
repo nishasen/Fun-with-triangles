@@ -43,13 +43,14 @@ body {
 }
 
 .btn-body {
-   display: block;
-   margin: 1rem auto;
+    display: block;
+    margin: 1rem auto;
     width:250px;
     height:100px;
     text-align:center;
     font-size:1.5rem;
     background-color: #BE185D;
+    cursor: pointer;
 }
 
 .footer {
